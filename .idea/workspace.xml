@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/common/models/Image.py" line="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d564f57a-9f96-4262-9481-cacdf2b8445c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/mina/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/mina/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/cart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/cart/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/cart/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/cart/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/food/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/food/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/food/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/food/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/food/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/food/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/food/info.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/food/info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/my/order_list.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/my/order_list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/my/order_list.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/my/order_list.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/order/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/order/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mina/pages/order/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/order/index.wxml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/order$tri.coverage" NAME="tri Coverage Results" MODIFIED="1555146622746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$Order.coverage" NAME="Order Coverage Results" MODIFIED="1555147853915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/controllers/api" />
+    <SUITE FILE_PATH="coverage/3_9bak$manager.coverage" NAME="manager Coverage Results" MODIFIED="1552131542048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$manager.coverage" NAME="manager Coverage Results" MODIFIED="1555173132471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1064196361">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="1" />
+          <entry key="json" value="1" />
+          <entry key="py" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Python" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="71" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="71" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1812368898">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="15" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="SentMemberComment" value="1" />
+          <entry key="css" value="4" />
+          <entry key="html" value="50" />
+          <entry key="ico" value="2" />
+          <entry key="jpg" value="6" />
+          <entry key="js" value="24" />
+          <entry key="md" value="1" />
+          <entry key="png" value="6" />
+          <entry key="py" value="83" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="50" />
+          <entry key="Image" value="14" />
+          <entry key="JavaScript" value="24" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="83" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="56" />
+          <entry key="js" value="51" />
+          <entry key="py" value="913" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="56" />
+          <entry key="JavaScript" value="51" />
+          <entry key="Python" value="913" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manager.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#24#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/member/MemberAddress.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#186#1612#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/member/Member_Cart.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/local_setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/base_setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/controllers/api/My.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#539#2665#0" />
+                <element signature="e#2717#5181#0" />
+                <element signature="e#4895#6383#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/member/MemberComment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="13" column="90" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="90" />
+              <folding>
+                <element signature="e#16#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/models/member/SentMemberComment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
+              <folding>
+                <element signature="e#16#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/controllers/api/Food.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1507">
+              <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+              <folding>
+                <element signature="e#24#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/coding-265/完整源码/mina/pages/my/comment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-280" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>订餐员</find>
+      <find>fa fa-user</find>
+      <find>user</find>
+      <find>fa</find>
+      <find>checkbox</find>
+      <find>fa-user</find>
+      <find>fa-rmb</find>
+      <find>default</find>
+      <find>nav-label</find>
+      <find>stat</find>
+      <find>meti</find>
+      <find>che</find>
+      <find>favicon.ico</find>
+      <find>common/mini_qrcode.jpg</find>
+      <find>/user/login</find>
+      <find>/chart/finance</find>
+      <find>/chart/dashboard</find>
+      <find>/logo.png</find>
+      <find>images/commom/bitbug_favicon</find>
+      <find>icon.png</find>
+      <find>ico</find>
+      <find>404</find>
+      <find>SERVER_PORT</find>
+      <find>8999</find>
+      <find>status</find>
+      <find>-2</find>
+      <find>my/order</find>
+      <find>got</find>
+      <find>creat</find>
+      <find>MemberComments</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>member_info</replace>
+      <replace>ops_render</replace>
+      <replace>MemberComment</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mina" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/templates/food/set.html" />
+        <option value="$PROJECT_DIR$/web/static/js/food/set.js" />
+        <option value="$PROJECT_DIR$/web/templates/food/cat.html" />
+        <option value="$PROJECT_DIR$/web/static/js/food/cat.js" />
+        <option value="$PROJECT_DIR$/web/controllers/food/Food.py" />
+        <option value="$PROJECT_DIR$/web/static/js/food/cat_set.js" />
+        <option value="E:/../数据库文件/food.sql" />
+        <option value="$PROJECT_DIR$/common/models/cabint/cabint_data.py" />
+        <option value="$PROJECT_DIR$/web/templates/food/cat_set.html" />
+        <option value="$PROJECT_DIR$/web/templates/food/index.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_cabinet.html" />
+        <option value="$PROJECT_DIR$/web/templates/order_member/comment.html" />
+        <option value="$PROJECT_DIR$/web/templates/cabinet/index.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_cabint.html" />
+        <option value="$PROJECT_DIR$/www.py" />
+        <option value="$PROJECT_DIR$/common/models/cabint/cabint_status.py" />
+        <option value="$PROJECT_DIR$/web/static/js/cabint/index.js" />
+        <option value="C:/3.2/xiangmu - bak/pages/shop/shop/shop.js" />
+        <option value="G:/在线交流/3.2/shop/shop.js" />
+        <option value="$PROJECT_DIR$/common/libs/queue/QueueService.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/__init__.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/Address.py" />
+        <option value="$PROJECT_DIR$/common/libs/food/FoodService.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/sent.py" />
+        <option value="D:/QRcorede/camera_2/camer2.py" />
+        <option value="$PROJECT_DIR$/common/libs/pay/PayService.py" />
+        <option value="$PROJECT_DIR$/web/controllers/Production/production.py" />
+        <option value="$PROJECT_DIR$/web/controllers/Qrcode/Qrcode.py" />
+        <option value="$PROJECT_DIR$/web/controllers/cabint/cabint.py" />
+        <option value="$PROJECT_DIR$/web/controllers/user/User.py" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_finance.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_food.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_member.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_order_member.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_stat.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_user.html" />
+        <option value="$PROJECT_DIR$/web/static/js/common.js" />
+        <option value="$PROJECT_DIR$/web/controllers/chart.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/Member.py" />
+        <option value="$PROJECT_DIR$/web/templates/cabint/index.html" />
+        <option value="$PROJECT_DIR$/web/templates/account/index.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/layout_main.html" />
+        <option value="$PROJECT_DIR$/web/templates/common/layout_user.html" />
+        <option value="$PROJECT_DIR$/web/controllers/api/Order.py" />
+        <option value="$PROJECT_DIR$/config/local_setting.py" />
+        <option value="$PROJECT_DIR$/common/models/pay/PayOrder.py" />
+        <option value="$PROJECT_DIR$/config/base_setting.py" />
+        <option value="$PROJECT_DIR$/common/models/member/MemberComment.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/Food.py" />
+        <option value="$PROJECT_DIR$/common/models/member/SentMemberComment.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/My.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="135" />
+    <option name="y" value="65" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="qrcode_id&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/3.8bak/order" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="run.code.analysis.last.selected.profile" value="aProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\controllers\upload" />
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\controllers\stat" />
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\static\js\cat.js" />
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\common\libs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\controllers\api" />
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\common\libs" />
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\common\models" />
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\static\js\cabint" />
+      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\templates\common" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.manager">
+    <configuration name="Order" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/controllers/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/controllers/api/Order.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="ops_config" value="local" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manager.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tri" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tri.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.manager" />
+      <item itemvalue="Python.tri" />
+      <item itemvalue="Python.Order" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manager" />
+        <item itemvalue="Python.Order" />
+        <item itemvalue="Python.tri" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" SSL_PROTOCOLS="sslv3">
+    <configuration />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d564f57a-9f96-4262-9481-cacdf2b8445c" name="Default" comment="" />
+      <created>1528044544203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528044544203</updated>
+      <workItem from="1549010376778" duration="665000" />
+      <workItem from="1549013278604" duration="5179000" />
+      <workItem from="1549019649292" duration="759000" />
+      <workItem from="1549062277892" duration="22707000" />
+      <workItem from="1549108135138" duration="251000" />
+      <workItem from="1549149929140" duration="21612000" />
+      <workItem from="1549178916007" duration="4764000" />
+      <workItem from="1549246555849" duration="25046000" />
+      <workItem from="1549324564239" duration="24338000" />
+      <workItem from="1549369006542" duration="5876000" />
+      <workItem from="1549412264074" duration="10169000" />
+      <workItem from="1549496307769" duration="13866000" />
+      <workItem from="1549585637961" duration="18384000" />
+      <workItem from="1549675487706" duration="74000" />
+      <workItem from="1549684830001" duration="4204000" />
+      <workItem from="1549693974314" duration="809000" />
+      <workItem from="1549707302439" duration="3986000" />
+      <workItem from="1549769116340" duration="651000" />
+      <workItem from="1549780145237" duration="18387000" />
+      <workItem from="1549845363573" duration="1831000" />
+      <workItem from="1549849022131" duration="8995000" />
+      <workItem from="1550279993016" duration="238000" />
+      <workItem from="1550999177079" duration="1314000" />
+      <workItem from="1551002290705" duration="9475000" />
+      <workItem from="1551065008175" duration="7470000" />
+      <workItem from="1551080407858" duration="10412000" />
+      <workItem from="1551093654608" duration="17000" />
+      <workItem from="1551093731162" duration="7335000" />
+      <workItem from="1551147508069" duration="700000" />
+      <workItem from="1551173205385" duration="5648000" />
+      <workItem from="1551230224113" duration="10705000" />
+      <workItem from="1551271310770" duration="674000" />
+      <workItem from="1551329050221" duration="20939000" />
+      <workItem from="1551404841503" duration="5929000" />
+      <workItem from="1551418322221" duration="10182000" />
+      <workItem from="1551444523567" duration="11323000" />
+      <workItem from="1551500691918" duration="4001000" />
+      <workItem from="1551511076034" duration="4929000" />
+      <workItem from="1551522500153" duration="2244000" />
+      <workItem from="1551531982209" duration="514000" />
+      <workItem from="1551534321117" duration="1105000" />
+      <workItem from="1551536966932" duration="14824000" />
+      <workItem from="1551686532278" duration="11788000" />
+      <workItem from="1551714710171" duration="1507000" />
+      <workItem from="1551764649445" duration="5735000" />
+      <workItem from="1551840148795" duration="4995000" />
+      <workItem from="1551854157643" duration="2135000" />
+      <workItem from="1551972493235" duration="139000" />
+      <workItem from="1552026457908" duration="931000" />
+      <workItem from="1552099011229" duration="16909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="366670000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.20710456" />
+      <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.1762481" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3262295" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26666668" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41538462" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32765958" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35602838" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32765958" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.46950355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32970452" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.20710456" />
+      <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.1762481" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3262295" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26666668" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41538462" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32765958" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35602838" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32907802" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32765958" />
+      <window_info anchor="bottom" id="调试" order="13" weight="0.46950355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32970452" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/My.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="600" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="food_ids[0]" language="Python" />
+        <watch expression="item.status_desc" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>food_ids[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>g</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>resp['data']['list']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_cabint.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_finance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_member.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_order_member.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_stat.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/cabint/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/account/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/common/layout_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/common/layout_user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/cabint/info.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/cabint/set.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/account/set.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/account/info.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/production_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_food.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/chart.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/food/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/food/Food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3990">
+          <caret line="191" column="27" selection-start-line="191" selection-end-line="191" selection-end-column="27" />
+          <folding>
+            <element signature="e#24#76#0" expanded="true" />
+            <element signature="e#7434#8697#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/cabint/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/food/set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/account/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-716" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/member/member.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/member/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/stat/product.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/upload/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/upload/Upload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1157457246/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="167" column="4" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="1075" column="21" lean-forward="true" selection-start-line="1075" selection-start-column="21" selection-end-line="1075" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/libs/UploadService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/ProgramData/Anaconda3/Lib/site-packages/flask/blueprints.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3820">
+          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/Order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#24#65#0" expanded="true" />
+            <element signature="e#827#2309#0" />
+            <element signature="e#2384#3950#0" />
+            <element signature="e#4019#5338#0" />
+            <element signature="e#5417#7025#0" />
+            <element signature="e#7094#7882#0" />
+            <element signature="e#7953#9256#0" />
+            <element signature="e#8234#8304#0" />
+            <element signature="e#8354#8409#0" />
+            <element signature="e#9329#9763#0" />
+            <element signature="e#9830#10263#0" />
+            <marker date="1552486543380" expanded="false" signature="9327:9329" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/pay/PayOrder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/coding-265/完整源码/mina/pages/my/comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/base_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/member/SentMemberComment">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/member/MemberAddress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#186#1612#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/member/Member_Cart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/member/Oauth_Member_Bind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/Food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1507">
+          <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+          <folding>
+            <element signature="e#24#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/member/SentMemberComment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#16#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/member/MemberComment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="90" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="90" />
+          <folding>
+            <element signature="e#16#72#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/My.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#539#2665#0" />
+            <element signature="e#2717#5181#0" />
+            <element signature="e#4895#6383#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
