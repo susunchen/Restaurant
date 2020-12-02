@@ -250,6 +250,7 @@ def hallSet():
     id = req['id'] if 'id' in req else 0
     name = req['name'] if 'name' in req else ''
     weight = int(req['weight'] if 'weight' in req and int(req['weight'])> 0 else 1)
+    main_image = req['main_image'] if 'main_image' in req else ''
 
     if name is None or len(name) < 1:
         resp['code'] = -1
@@ -260,6 +261,13 @@ def hallSet():
         resp['code'] = -1
         resp['msg'] = "请输入符合规范的权重~~"
         return jsonify(resp)
+
+
+    if main_image is None or len(main_image) < 3:
+        resp['code'] = -1
+        resp['msg'] = "请上传封面图~~"
+        return jsonify(resp)
+
 
     hall_info = Hall.query.filter_by(id=id).first()
     if hall_info:
@@ -274,6 +282,7 @@ def hallSet():
 
     model_hall.name = name
     model_hall.weight = weight
+    model_hall.main_image = main_image
     model_hall.updated_time = getCurrentDate()
     db.session.add(model_hall)
     db.session.commit()
@@ -329,7 +338,7 @@ def catSet():
             info = FoodCat .query.filter_by( id= id).first()
         resp_data['info'] = info
         resp_data['hall_list'] = hall_list
-        return ops_render("food/cat_set.html", resp_data)
+        return ops_render("food/set.html", resp_data)
 
     resp = {'code': 200, 'msg': '操作成功~~', 'data': {}}
     req = request.values

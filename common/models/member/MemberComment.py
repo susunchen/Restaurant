@@ -15,4 +15,5 @@ class MemberComment(db.Model):
     food_score = db.Column(db.Integer, nullable=False, server_default=db.FetchedValue())
     sent_score = db.Column(db.Integer, nullable=False, server_default=db.FetchedValue())
     content = db.Column(db.String(200), nullable=False, server_default=db.FetchedValue())
+    sent_content = db.Column(db.String(200), nullable=False, server_default=db.FetchedValue())
     created_time = db.Column(db.DateTime, nullable=False, server_default=db.FetchedValue())

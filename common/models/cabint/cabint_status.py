@@ -10,6 +10,8 @@ class CabintStatu(db.Model):
 
     id = db.Column(db.Integer, primary_key=True)
     cabint_status = db.Column(db.Integer, nullable=False, index=True, server_default=db.FetchedValue())
+    option_id = db.Column(db.Integer, nullable=False, unique=False, server_default=db.FetchedValue())
+    hall_id = db.Column(db.Integer, nullable=False, server_default=db.FetchedValue())
     status = db.Column(db.Integer, nullable=False, index=True, server_default=db.FetchedValue())
     updated_time = db.Column(db.DateTime, nullable=False, server_default=db.FetchedValue())
 

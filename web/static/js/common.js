@@ -94,7 +94,7 @@ var common_ops = {
         }
 
         if(  pathname.indexOf("/stat") > -1  ){
-            nav_name = "stat";
+            nav_name = "stat3";
         }
 
         if(  pathname.indexOf("/cabint") > -1  ){

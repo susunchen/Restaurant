@@ -9,6 +9,7 @@ from common.libs.UrlManager import UrlManager
 from common.libs.Help import selectFilterObj,getDictFilterField,getCurrentDate
 from common.models.member.MemberComment import MemberComment
 from common.models.member.SentMemberComment import SentMemberComment
+from common.models.member.MemberAddress import MemberAddress
 import json,datetime
 
 
@@ -60,14 +61,16 @@ def myOrderList():
 
 		for item in pay_order_list:
 			if int(item.status) == 3:
-				item.status = '1'
-				item.status_desc = '待评价'
+				item.status = 1
+			adress = MemberAddress.query.filter_by(id = item.express_address_id,status = 1).first()
 			tmp_data = {
 				'status':item.status,
 				'status_desc':item.status_desc,
 				'date':item.created_time.strftime("%Y-%m-%d %H:%M:%S"),
 				'order_number':item.order_number,
 				'order_sn':item.order_sn,
+				'order_adress':adress.province_str+adress.city_str+adress.area_str+adress.address,
+				"cabint_id":item.cabint_id,
 				'note':item.note,
 				'total_price':str( item.total_price ),
 				'goods_list':pay_order_item_map[ item.id ]
@@ -91,7 +94,7 @@ def myOrderSent():
 		query = query.filter( PayOrder.status == -4)
 	elif status == -3:#待确认
 		query = query.filter(PayOrder.status == -3)
-	elif status == 1:#待评价
+	elif status == -2:#待评价
 		query = query.filter(PayOrder.status.in_(['-2','1','2']))
 	elif status == 4:#已完成
 		query = query.filter(PayOrder.status.in_(['3','4']) )
@@ -123,16 +126,18 @@ def myOrderSent():
 
 
 		for item in pay_order_list:
+			adress = MemberAddress.query.filter_by(id=item.express_address_id, status=1).first()
 			#if int(item.status) == 2:
 				#item.status = '1'
 				#item.status_desc = "2"
 			if int(item.status) == 2:
 				tmp_data = {
 				'status':1,
-				'status_desc':"待评价",
 				'date':item.created_time.strftime("%Y-%m-%d %H:%M:%S"),
 				'order_number':item.order_number,
 				'order_sn':item.order_sn,
+				'order_adress': adress.province_str + adress.city_str + adress.area_str + adress.address,
+				"cabint_id": item.cabint_id,
 				'note':item.note,
 				'total_price':str( item.total_price ),
 				'goods_list':pay_order_item_map[ item.id ]
@@ -144,6 +149,7 @@ def myOrderSent():
 				'date':item.created_time.strftime("%Y-%m-%d %H:%M:%S"),
 				'order_number':item.order_number,
 				'order_sn':item.order_sn,
+				"cabint_id": item.cabint_id,
 				'note':item.note,
 				'total_price':str( item.total_price ),
 				'goods_list':pay_order_item_map[ item.id ]
@@ -253,7 +259,7 @@ def mySentCommentAdd():
 	req = request.values
 	order_sn = req['order_sn'] if 'order_sn' in req else ''
 	score = req['score'] if 'score' in req else 10
-	content = req['content'] if 'content' in req else ''
+	sent_content = req['sent_content'] if 'sent_content' in req else ''
 
 
 	pay_order_info = PayOrder.query.filter_by( sent_member_id=member_info.id ,order_sn = order_sn).first()
@@ -277,7 +283,7 @@ def mySentCommentAdd():
 	sent_model_comment.pay_order_id = pay_order_info.id
 	sent_model_comment.order_sn = order_sn
 	sent_model_comment.score = score
-	sent_model_comment.content = content
+	sent_model_comment.sent_content = sent_content
 	db.session.add( sent_model_comment )
 	if pay_order_info.status ==1:
 		pay_order_info.status = 3
@@ -306,6 +312,7 @@ def myCommentList():
 			tmp_data = {
 				"date":item.created_time.strftime("%Y-%m-%d %H:%M:%S"),
 				"content":item.content,
+				"sent_content":item.sent_content,
 				"order_number":tmp_pay_order_info.order_number
 			}
 			data_comment_list.append( tmp_data )

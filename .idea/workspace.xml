@@ -2,9 +2,54 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/common/models/Image.py" line="3" />
+    <bookmark url="file://$PROJECT_DIR$/config/base_setting.py" line="84" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d564f57a-9f96-4262-9481-cacdf2b8445c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/cert/client.crt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cert/client.key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/UrlManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/UrlManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/food/FoodService.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/food/FoodService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/member/CartService.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/member/CartService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/member/MemberService.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/member/MemberService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/pay/PayService.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/pay/PayService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/pay/WeChatService.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/pay/WeChatService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/libs/queue/QueueService.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/libs/queue/QueueService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/Qrcpde_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/Qrcpde_date.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/cabint/cabint_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/cabint/cabint_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/cabint/cabint_status.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/cabint/cabint_status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/food/Wx_Share_History.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/food/Wx_Share_History.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/food/food.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/food/food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/food/food_cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/food/food_cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/food/food_sals_change_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/food/food_sals_change_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/food/food_stock_change_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/food/food_stock_change_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/food/hall.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/food/hall.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/member/Member.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/member/Member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/member/MemberAddress.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/member/MemberAddress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/member/MemberComment.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/member/MemberComment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/member/Member_Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/member/Member_Cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/member/Oauth_Member_Bind.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/member/Oauth_Member_Bind.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/member/SentMemberComment.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/member/SentMemberComment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/pay/OauthAccessToken.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/pay/OauthAccessToken.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/pay/PayOrder.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/pay/PayOrder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/pay/PayOrderCallbackData.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/pay/PayOrderCallbackData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/pay/PayOrderItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/pay/PayOrderItem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/queue/QueueList.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/queue/QueueList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/stat/StatDailyFood.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/stat/StatDailyFood.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/stat/StatDailyMember.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/stat/StatDailyMember.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/models/stat/StatDailySite.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/models/stat/StatDailySite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/base_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/base_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/local_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/local_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mysql.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mina/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mina/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/mina/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mina/pages/cart/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/cart/index.js" afterDir="false" />
@@ -18,6 +63,180 @@
       <change beforePath="$PROJECT_DIR$/mina/pages/my/order_list.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/my/order_list.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mina/pages/order/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/order/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mina/pages/order/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/mina/pages/order/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/account/Account.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/account/Account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/Address.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/Address.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/Cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/Cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/Food.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/Food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/Member.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/Member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/My.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/My.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/Order.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/Order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/api/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/cabint/cabint.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/cabint/cabint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/chart.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/chart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/finance/Finance.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/finance/Finance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/food/Food.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/food/Food.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/member/Member.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/member/Member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/stat/Stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/stat/Stat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/static.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/static.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/controllers/user/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/controllers/user/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/interceptors/ApiAuthInterceptor.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/interceptors/ApiAuthInterceptor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/bootstrap/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/font-awesome/css/font-awesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/font-awesome/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/account/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/account/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/cabint/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/cabint/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/chart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/finance/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/finance/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/finance/pay_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/finance/pay_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/food/cat.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/food/cat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/food/hall.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/food/hall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/food/hall_set.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/food/hall_set.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/food/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/food/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/food/set.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/food/set.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/member/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/member/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/stat/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/stat/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/stat/member.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/stat/member.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/stat/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/stat/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/stat/share.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/stat/share.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/user/reset_pwd.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/user/reset_pwd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/datetimepicker/jquery.datetimepicker.full.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/datetimepicker/jquery.datetimepicker.full.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/datetimepicker/jquery.datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/datetimepicker/jquery.datetimepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/highcharts/highcharts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/jquery-2.1.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/jquery-2.1.1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/layer/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/layer/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/layer/mobile/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/layer/mobile/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/raty/jquery.raty.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/raty/jquery.raty.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/select2/pinyin.core.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/select2/pinyin.core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/select2/select2.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/select2/select2.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/select2/select2.pinyin.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/select2/select2.pinyin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/select2/zh-CN.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/select2/zh-CN.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/attachment/attachment.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/attachment/attachment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/charts/chart.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/charts/chart.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/charts/charts.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/charts/charts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/charts/charts.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/charts/charts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/map/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/map/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/preview/preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/preview/preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittable.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittable.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittable.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittd.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittip.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/table/edittip.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/dialogs/wordimage/tangram.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/themes/default/css/ueditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/themes/default/css/ueditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/themes/default/css/ueditor.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/themes/default/css/ueditor.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/SyntaxHighlighter/shCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/codemirror/codemirror.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/mootools-adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/prototype-adapter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/standalone-framework.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/highcharts-more.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/highcharts-more.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/highcharts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/highcharts.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/annotations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/annotations.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/canvas-tools.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/canvas-tools.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/data.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/drilldown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/drilldown.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/exporting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/exporting.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/funnel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/funnel.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/heatmap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/heatmap.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/map.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/no-data-to-display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/dark-blue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/dark-green.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/gray.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/grid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/highcharts/themes/skies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/jquery-1.10.2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/font/vjs.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/video-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/video-js.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/video-js.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/video.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/video.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/video-js/video.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.flashonly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.flashonly.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.html5only.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.html5only.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.withoutimage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/zeroclipboard/ZeroClipboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/ueditor.all.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/ueditor.all.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/ueditor.parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/ueditor.parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/ueditor.parse.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/ueditor.parse.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/plugins/ueditor/upload_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/plugins/ueditor/upload_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/account/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/account/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/account/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/account/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/account/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/account/set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/cabint/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/cabint/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/cabint/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/cabint/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/cabint/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/cabint/set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/layout_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/layout_main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/layout_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/layout_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/pagenation.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/pagenation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/tab_account.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/tab_account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/tab_cabint.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/tab_cabint.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/tab_finance.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/tab_finance.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/tab_food.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/tab_food.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/tab_member.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/tab_member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/tab_order_member.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/tab_order_member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/tab_stat.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/tab_stat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/common/tab_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/common/tab_user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/error/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/error/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/finance/account.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/finance/account.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/finance/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/finance/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/finance/pay_info.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/finance/pay_info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/food/cat.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/food/cat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/food/cat_set.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/food/cat_set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/food/hall.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/food/hall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/food/hall_set.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/food/hall_set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/food/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/food/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/food/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/food/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/food/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/food/set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/member/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/member/comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/member/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/member/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/member/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/member/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/member/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/member/set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/order_member/comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/order_member/comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/order_member/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/order_member/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/order_member/info.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/order_member/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/order_member/set.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/order_member/set.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/stat/food.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/stat/food.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/stat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/stat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/stat/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/stat/member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/stat/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/stat/share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/user/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/user/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/user/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/user/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/user/reset_pwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/user/reset_pwd.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,96 +247,48 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/order$tri.coverage" NAME="tri Coverage Results" MODIFIED="1555146622746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/order$Order.coverage" NAME="Order Coverage Results" MODIFIED="1555147853915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/controllers/api" />
+    <SUITE FILE_PATH="coverage/order$production.coverage" NAME="production Coverage Results" MODIFIED="1564267020907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/controllers/Production" />
+    <SUITE FILE_PATH="coverage/order$base_setting.coverage" NAME="base_setting Coverage Results" MODIFIED="1565810923196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/3_9bak$manager.coverage" NAME="manager Coverage Results" MODIFIED="1552131542048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/order$manager.coverage" NAME="manager Coverage Results" MODIFIED="1555173132471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/order$manager.coverage" NAME="manager Coverage Results" MODIFIED="1564484570468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="1064196361">
+    <session id="1422617373">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="js" value="1" />
-          <entry key="json" value="1" />
-          <entry key="py" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="1" />
-          <entry key="Python" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="71" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="71" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1812368898">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.21" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.32" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="SentMemberComment" value="1" />
-          <entry key="css" value="4" />
-          <entry key="html" value="50" />
-          <entry key="ico" value="2" />
-          <entry key="jpg" value="6" />
-          <entry key="js" value="24" />
-          <entry key="md" value="1" />
-          <entry key="png" value="6" />
-          <entry key="py" value="83" />
+          <entry key="crt" value="1" />
+          <entry key="gitattributes" value="2" />
+          <entry key="ini" value="1" />
+          <entry key="key" value="1" />
+          <entry key="py" value="17" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="4" />
-          <entry key="HTML" value="50" />
-          <entry key="Image" value="14" />
-          <entry key="JavaScript" value="24" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="83" />
+          <entry key="Ini" value="1" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="56" />
-          <entry key="js" value="51" />
-          <entry key="py" value="913" />
+          <entry key="py" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="56" />
-          <entry key="JavaScript" value="51" />
-          <entry key="Python" value="913" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
     </session>
@@ -127,49 +298,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#24#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/member/MemberAddress.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
               <folding>
-                <element signature="e#186#1612#0" />
+                <element signature="e#25#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/member/Member_Cart.py">
+        <entry file="file://$PROJECT_DIR$/web/controllers/food/Food.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/local_setting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/base_setting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            <state relative-caret-position="-827">
+              <caret line="357" column="37" lean-forward="true" selection-start-line="357" selection-start-column="37" selection-end-line="357" selection-end-column="37" />
+              <folding>
+                <element signature="e#24#76#0" expanded="true" />
+                <element signature="e#2236#2838#0" />
+                <element signature="e#6028#6843#0" />
+                <element signature="e#6891#7350#0" />
+                <element signature="e#7434#8943#0" />
+                <element signature="e#9019#9830#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,57 +327,56 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/controllers/api/My.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-              <folding>
-                <element signature="e#539#2665#0" />
-                <element signature="e#2717#5181#0" />
-                <element signature="e#4895#6383#0" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/member/MemberComment.py">
+        <entry file="file://$PROJECT_DIR$/common/libs/food/FoodService.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/libs/res.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="90" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="90" />
-              <folding>
-                <element signature="e#16#72#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="222">
+              <caret line="208" column="54" selection-start-line="208" selection-start-column="54" selection-end-line="208" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/models/member/SentMemberComment.py">
+        <entry file="file://$PROJECT_DIR$/www.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/local_setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="e#16#72#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/controllers/api/Food.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1507">
-              <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
-              <folding>
-                <element signature="e#24#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/application.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/coding-265/完整源码/mina/pages/my/comment.js">
+        <entry file="file://$PROJECT_DIR$/config/production_setting.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/base_setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-280" />
+            <state relative-caret-position="1260">
+              <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -238,104 +387,108 @@
       <list>
         <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>订餐员</find>
-      <find>fa fa-user</find>
-      <find>user</find>
+      <find>/list</find>
+      <find>add</find>
+      <find>set</find>
+      <find>bootstrap</find>
+      <find>/upload/pic</find>
+      <find>upload_pic_wrap</find>
       <find>fa</find>
-      <find>checkbox</find>
-      <find>fa-user</find>
-      <find>fa-rmb</find>
-      <find>default</find>
-      <find>nav-label</find>
-      <find>stat</find>
-      <find>meti</find>
-      <find>che</find>
-      <find>favicon.ico</find>
-      <find>common/mini_qrcode.jpg</find>
-      <find>/user/login</find>
-      <find>/chart/finance</find>
-      <find>/chart/dashboard</find>
-      <find>/logo.png</find>
-      <find>images/commom/bitbug_favicon</find>
-      <find>icon.png</find>
-      <find>ico</find>
-      <find>404</find>
-      <find>SERVER_PORT</find>
-      <find>8999</find>
-      <find>status</find>
-      <find>-2</find>
-      <find>my/order</find>
-      <find>got</find>
-      <find>creat</find>
-      <find>MemberComments</find>
+      <find>app</find>
+      <find>INFO</find>
+      <find>styl</find>
+      <find>food</find>
+      <find>li</find>
+      <find>navbar-default</find>
+      <find>onclick</find>
+      <find>li.account</find>
+      <find>wrap_food_set</find>
+      <find>pic-each</find>
+      <find>host</find>
+      <find>ac</find>
+      <find>备注</find>
+      <find>comment</find>
+      <find>index</find>
+      <find>上传图片</find>
+      <find>attachment.js</find>
+      <find>for</find>
+      <find>table-bordered</find>
+      <find>show</find>
+      <find>reload</find>
+      <find>note</find>
+      <find>C:\Users\cmce\Anaconda3\envs\cabint\python.exe</find>
     </findStrings>
     <replaceStrings>
       <replace>member_info</replace>
       <replace>ops_render</replace>
       <replace>MemberComment</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\www\order\common\libs</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mina" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/templates/food/set.html" />
-        <option value="$PROJECT_DIR$/web/static/js/food/set.js" />
-        <option value="$PROJECT_DIR$/web/templates/food/cat.html" />
-        <option value="$PROJECT_DIR$/web/static/js/food/cat.js" />
-        <option value="$PROJECT_DIR$/web/controllers/food/Food.py" />
+        <option value="$PROJECT_DIR$/web/templates/common/layout_user.html" />
+        <option value="$PROJECT_DIR$/common/models/pay/PayOrder.py" />
+        <option value="$PROJECT_DIR$/common/models/member/MemberComment.py" />
+        <option value="$PROJECT_DIR$/common/models/member/SentMemberComment.py" />
+        <option value="$PROJECT_DIR$/web/static/bootstrap/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/web/controllers/chart.py" />
+        <option value="$PROJECT_DIR$/config/local_setting.py" />
+        <option value="$PROJECT_DIR$/common/models/huawei/HuaweiOauthAccessToken.py" />
+        <option value="$PROJECT_DIR$/common/libs/pay/WeChatService.py" />
+        <option value="$PROJECT_DIR$/common/models/food/hall.py" />
+        <option value="$PROJECT_DIR$/web/static/css/style.css" />
+        <option value="$PROJECT_DIR$/web/static/js/common.js" />
         <option value="$PROJECT_DIR$/web/static/js/food/cat_set.js" />
-        <option value="E:/../数据库文件/food.sql" />
-        <option value="$PROJECT_DIR$/common/models/cabint/cabint_data.py" />
-        <option value="$PROJECT_DIR$/web/templates/food/cat_set.html" />
-        <option value="$PROJECT_DIR$/web/templates/food/index.html" />
-        <option value="$PROJECT_DIR$/web/templates/common/tab_cabinet.html" />
-        <option value="$PROJECT_DIR$/web/templates/order_member/comment.html" />
-        <option value="$PROJECT_DIR$/web/templates/cabinet/index.html" />
-        <option value="$PROJECT_DIR$/web/templates/common/tab_cabint.html" />
+        <option value="$PROJECT_DIR$/web/static/js/food/set.js" />
+        <option value="$PROJECT_DIR$/web/static/js/food/hall_set.js" />
+        <option value="$PROJECT_DIR$/web/templates/food/hall_set.html" />
+        <option value="$PROJECT_DIR$/web/controllers/api/__init__.py" />
+        <option value="$PROJECT_DIR$/common/models/Qrcpde_date.py" />
+        <option value="$PROJECT_DIR$/web/controllers/option/option.py" />
         <option value="$PROJECT_DIR$/www.py" />
+        <option value="$PROJECT_DIR$/application.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/Member.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/Food.py" />
+        <option value="$PROJECT_DIR$/web/templates/option/option.html" />
+        <option value="$PROJECT_DIR$/web/static/js/option/index.js" />
+        <option value="$PROJECT_DIR$/web/templates/option/index.html" />
+        <option value="$PROJECT_DIR$/web/templates/option/set.html" />
+        <option value="$PROJECT_DIR$/web/controllers/option/Option.py" />
+        <option value="$PROJECT_DIR$/common/libs/huawei/huawei_help.py" />
+        <option value="$PROJECT_DIR$/web/static/js/option/set.js" />
+        <option value="$PROJECT_DIR$/web/templates/common/tab_option.html" />
         <option value="$PROJECT_DIR$/common/models/cabint/cabint_status.py" />
         <option value="$PROJECT_DIR$/web/static/js/cabint/index.js" />
-        <option value="C:/3.2/xiangmu - bak/pages/shop/shop/shop.js" />
-        <option value="G:/在线交流/3.2/shop/shop.js" />
-        <option value="$PROJECT_DIR$/common/libs/queue/QueueService.py" />
-        <option value="$PROJECT_DIR$/web/controllers/api/__init__.py" />
-        <option value="$PROJECT_DIR$/web/controllers/api/Address.py" />
-        <option value="$PROJECT_DIR$/common/libs/food/FoodService.py" />
-        <option value="$PROJECT_DIR$/web/controllers/api/sent.py" />
-        <option value="D:/QRcorede/camera_2/camer2.py" />
-        <option value="$PROJECT_DIR$/common/libs/pay/PayService.py" />
-        <option value="$PROJECT_DIR$/web/controllers/Production/production.py" />
-        <option value="$PROJECT_DIR$/web/controllers/Qrcode/Qrcode.py" />
-        <option value="$PROJECT_DIR$/web/controllers/cabint/cabint.py" />
-        <option value="$PROJECT_DIR$/web/controllers/user/User.py" />
-        <option value="$PROJECT_DIR$/web/templates/common/tab_finance.html" />
-        <option value="$PROJECT_DIR$/web/templates/common/tab_food.html" />
-        <option value="$PROJECT_DIR$/web/templates/common/tab_member.html" />
-        <option value="$PROJECT_DIR$/web/templates/common/tab_order_member.html" />
-        <option value="$PROJECT_DIR$/web/templates/common/tab_stat.html" />
-        <option value="$PROJECT_DIR$/web/templates/common/tab_user.html" />
-        <option value="$PROJECT_DIR$/web/static/js/common.js" />
-        <option value="$PROJECT_DIR$/web/controllers/chart.py" />
-        <option value="$PROJECT_DIR$/web/controllers/api/Member.py" />
         <option value="$PROJECT_DIR$/web/templates/cabint/index.html" />
-        <option value="$PROJECT_DIR$/web/templates/account/index.html" />
+        <option value="$PROJECT_DIR$/web/controllers/cabint/cabint.py" />
+        <option value="$PROJECT_DIR$/web/templates/production/show.html" />
+        <option value="$USER_HOME$/Finish/register.py" />
+        <option value="$USER_HOME$/Finish/all_test.py" />
+        <option value="$PROJECT_DIR$/web/controllers/Production/production.py" />
+        <option value="$PROJECT_DIR$/web/templates/food/index.html" />
+        <option value="$PROJECT_DIR$/manager.py" />
+        <option value="$PROJECT_DIR$/common/models/option/option.py" />
         <option value="$PROJECT_DIR$/web/templates/common/layout_main.html" />
-        <option value="$PROJECT_DIR$/web/templates/common/layout_user.html" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/web/controllers/api/Huawei.py" />
+        <option value="$PROJECT_DIR$/common/libs/res.py" />
+        <option value="$PROJECT_DIR$/web/controllers/api/sent.py" />
         <option value="$PROJECT_DIR$/web/controllers/api/Order.py" />
-        <option value="$PROJECT_DIR$/config/local_setting.py" />
-        <option value="$PROJECT_DIR$/common/models/pay/PayOrder.py" />
         <option value="$PROJECT_DIR$/config/base_setting.py" />
-        <option value="$PROJECT_DIR$/common/models/member/MemberComment.py" />
-        <option value="$PROJECT_DIR$/web/controllers/api/Food.py" />
-        <option value="$PROJECT_DIR$/common/models/member/SentMemberComment.py" />
+        <option value="$PROJECT_DIR$/web/controllers/food/Food.py" />
         <option value="$PROJECT_DIR$/web/controllers/api/My.py" />
       </list>
     </option>
@@ -347,10 +500,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="135" />
-    <option name="y" value="65" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="x" value="45" />
+    <option name="y" value="25" />
+    <option name="width" value="1470" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -358,6 +511,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,26 +528,65 @@
               <item name="order" type="b2602c69:ProjectViewProjectNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="order" type="b2602c69:ProjectViewProjectNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="member" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="finance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="qrcode_id&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/3.8bak/order" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
@@ -403,19 +596,23 @@
     <property name="run.code.analysis.last.selected.profile" value="aProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myShowDebugConsoleByDefault" value="true" />
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cmce\Desktop\order\web\static\plugins" />
+      <recent name="C:\Users\cmce\Desktop\order\web\templates\food" />
+      <recent name="C:\www\order\web\templates\option" />
+      <recent name="C:\www\order\web\static\js\option" />
+      <recent name="C:\www\order\web\templates\cabint" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\www\order\web\templates\option" />
       <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\controllers\upload" />
       <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\controllers\stat" />
       <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\static\js\cat.js" />
       <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\common\libs" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\controllers\api" />
-      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\common\libs" />
-      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\common\models" />
-      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\static\js\cabint" />
-      <recent name="D:\订餐小程序\coding-265\Flask 基础框架\v1\order\web\templates\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,7 +628,32 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.manager">
-    <configuration name="Order" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="show.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/order/web/templates/production/show.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="all_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cmce\Anaconda3\envs\MQTT\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Finish" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Finish/all_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="base_setting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="order" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -439,12 +661,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/controllers/api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/controllers/api/Order.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config/base_setting.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -461,9 +683,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="ops_config" value="local" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\cmce\Anaconda3\envs\cabint\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -476,7 +698,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tri" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="production" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="order" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -484,12 +706,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web/controllers/Production" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tri.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/controllers/Production/production.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -499,15 +721,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.show.html" />
       <item itemvalue="Python.manager" />
-      <item itemvalue="Python.tri" />
-      <item itemvalue="Python.Order" />
+      <item itemvalue="Python.all_test" />
+      <item itemvalue="Python.production" />
+      <item itemvalue="Python.base_setting" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.manager" />
-        <item itemvalue="Python.Order" />
-        <item itemvalue="Python.tri" />
+        <item itemvalue="Python.base_setting" />
+        <item itemvalue="Python.all_test" />
+        <item itemvalue="Python.production" />
+        <item itemvalue="JavaScript Debug.show.html" />
       </list>
     </recent_temporary>
   </component>
@@ -572,11 +798,41 @@
       <workItem from="1551972493235" duration="139000" />
       <workItem from="1552026457908" duration="931000" />
       <workItem from="1552099011229" duration="16909000" />
+      <workItem from="1559310538000" duration="1418000" />
+      <workItem from="1559312185727" duration="6901000" />
+      <workItem from="1559324343398" duration="4128000" />
+      <workItem from="1559354497744" duration="5929000" />
+      <workItem from="1563268175538" duration="7030000" />
+      <workItem from="1563333176692" duration="15124000" />
+      <workItem from="1563361515391" duration="8341000" />
+      <workItem from="1563428863576" duration="3643000" />
+      <workItem from="1563456414484" duration="10457000" />
+      <workItem from="1563516491340" duration="1266000" />
+      <workItem from="1563592680625" duration="1190000" />
+      <workItem from="1563602106170" duration="14627000" />
+      <workItem from="1563687660580" duration="36053000" />
+      <workItem from="1563888389837" duration="1749000" />
+      <workItem from="1564513032894" duration="830000" />
+      <workItem from="1564515815678" duration="2268000" />
+      <workItem from="1564526095460" duration="14033000" />
+      <workItem from="1564563805561" duration="4908000" />
+      <workItem from="1565538476056" duration="3956000" />
+      <workItem from="1565579499876" duration="1066000" />
+      <workItem from="1565591334326" duration="927000" />
+      <workItem from="1565595254910" duration="14393000" />
+      <workItem from="1565646334389" duration="6526000" />
+      <workItem from="1565676881414" duration="24000" />
+      <workItem from="1565708248342" duration="2526000" />
+      <workItem from="1565711592341" duration="4130000" />
+      <workItem from="1565764196415" duration="10692000" />
+      <workItem from="1565808265824" duration="228000" />
+      <workItem from="1565808523227" duration="140000" />
+      <workItem from="1565808820955" duration="62000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366670000" />
+    <option name="totallyTimeSpent" value="551235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,51 +847,51 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.20710456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.18364611" />
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.1762481" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3262295" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26666668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41538462" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32614556" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.36879432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44474393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32765958" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49865952" weight="0.3248227" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35602838" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32907802" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32765958" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34770888" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.36879432" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32884097" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32614556" />
       <window_info anchor="bottom" id="调试" order="13" weight="0.46950355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32970452" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32840616" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.20710456" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.16773778" />
       <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" weight="0.1762481" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3262295" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26666668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41538462" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32614556" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.36927223" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44474393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32765958" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32749325" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35602838" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.34893617" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.26557377" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32907802" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32765958" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3262295" />
       <window_info anchor="bottom" id="调试" order="13" weight="0.46950355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32970452" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32840616" />
       <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
@@ -648,15 +904,567 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Address.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Address.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>268</line>
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>276</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>275</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/food/Food.py</url>
+          <line>273</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/upload/Upload.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/upload/Upload.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/upload/Upload.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/upload/Upload.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/upload/Upload.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/upload/Upload.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/UploadService.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/common/libs/UploadService.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/cabint/cabint.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/cabint/cabint.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/cabint/cabint.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/cabint/cabint.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/Production/production.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/Production/production.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/Production/production.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/Production/production.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/Production/production.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/Production/production.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>306</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>307</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>308</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>309</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>312</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>321</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>320</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>319</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>318</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>316</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>315</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>330</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="499" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="500" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="501" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="502" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="504" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="505" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="510" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="545" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Order.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="546" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/option/Option.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="554" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/option/Option.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="555" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/option/Option.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="556" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/option/Option.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="557" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/option/Option.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="558" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/option/Option.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/option/Option.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/option/Option.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="563" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="566" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Food.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="579" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="580" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="581" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Huawei.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="582" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/web/controllers/api/My.py</url>
-          <line>86</line>
+          <line>85</line>
+          <option name="timeStamp" value="584" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/My.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="585" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/My.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="586" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/My.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="587" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="594" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="595" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="596" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="597" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="598" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="599" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>76</line>
           <option name="timeStamp" value="600" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="601" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="602" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="603" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>80</line>
+          <option name="timeStamp" value="604" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="605" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="606" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="609" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="610" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/Member.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/web/controllers/api/My.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="614" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/static/js/food/hall_set.js</url>
+          <line>29</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/static/js/food/hall_set.js</url>
+          <line>30</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/web/static/js/food/hall_set.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -667,13 +1475,26 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="food_ids[0]" language="Python" />
-        <watch expression="item.status_desc" />
+        <watch expression="transporter_info" />
+        <watch expression="member_info" />
+        <watch expression="params_goods_list" />
+        <watch expression="Nutrition_food_info[0]" />
       </configuration>
     </watches-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/order$res.coverage" NAME="res Coverage Results" MODIFIED="1563720238152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/common/libs" />
+    <SUITE FILE_PATH="coverage/order$Food.coverage" NAME="Food Coverage Results" MODIFIED="1563720467284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web/controllers/api" />
+    <SUITE FILE_PATH="coverage/order$all_test.coverage" NAME="all_test Coverage Results" MODIFIED="1564529207322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Finish" />
+    <SUITE FILE_PATH="coverage/order$manager.coverage" NAME="manager Coverage Results" MODIFIED="1565808293985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>old_id</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>food_ids[0]</expression-string>
         <language-id>Python</language-id>
@@ -692,323 +1513,259 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_cabint.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_finance.html">
+    <entry file="file://$USER_HOME$/Finish2/all_test.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/cabint/Lib/socketserver.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/cabint/Lib/http/server.py" />
+    <entry file="file://$PROJECT_DIR$/web/templates/production/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        <state relative-caret-position="180">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_member.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_order_member.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_stat.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_user.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/cabint/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/account/index.html">
+    <entry file="file://$PROJECT_DIR$/web/interceptors/Authintercptor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state>
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/cabint/Lib/site-packages/flask_sqlalchemy/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/common/libs/huawei/huawei_help.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#1#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/Production/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="124" selection-start-line="124" selection-end-line="124" />
+          <folding>
+            <element signature="e#0#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MQTT/QR.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/cabint/Lib/selectors.py" />
+    <entry file="file://$PROJECT_DIR$/web/templates/food/set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="126" column="49" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/food/set.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/food/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="70" column="49" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/plugins/select2/zh-CN.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="80" selection-start-column="80" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/common/layout_main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        <state relative-caret-position="339">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/templates/common/layout_user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/cabint/info.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/cabint/set.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/account/set.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/account/info.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/production_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/common/tab_food.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1460">
-          <caret line="73" column="24" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/chart.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/food/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/food/Food.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3990">
-          <caret line="191" column="27" selection-start-line="191" selection-end-line="191" selection-end-column="27" />
-          <folding>
-            <element signature="e#24#76#0" expanded="true" />
-            <element signature="e#7434#8697#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/cabint/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/food/set.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/account/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/member/member.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-836" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/member/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/stat/product.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/api/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/upload/__init__.py">
+    <entry file="file://$PROJECT_DIR$/web/templates/index/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/upload/Upload.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="188">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/../cabint/open1.py" />
+    <entry file="file://$PROJECT_DIR$/../moter/dianji_two.py" />
+    <entry file="file://$PROJECT_DIR$/web/controllers/option/Option.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        <state relative-caret-position="1460">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1157457246/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="167" column="4" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="1075" column="21" lean-forward="true" selection-start-line="1075" selection-start-column="21" selection-end-line="1075" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/libs/UploadService.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/ProgramData/Anaconda3/Lib/site-packages/flask/blueprints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3820">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/Image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/controllers/api/Order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#24#65#0" expanded="true" />
-            <element signature="e#827#2309#0" />
-            <element signature="e#2384#3950#0" />
-            <element signature="e#4019#5338#0" />
-            <element signature="e#5417#7025#0" />
-            <element signature="e#7094#7882#0" />
-            <element signature="e#7953#9256#0" />
-            <element signature="e#8234#8304#0" />
-            <element signature="e#8354#8409#0" />
-            <element signature="e#9329#9763#0" />
-            <element signature="e#9830#10263#0" />
-            <marker date="1552486543380" expanded="false" signature="9327:9329" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/pay/PayOrder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/coding-265/完整源码/mina/pages/my/comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/base_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/local_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/member/SentMemberComment">
+    <entry file="file://$PROJECT_DIR$/common/libs/Help.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/member/MemberAddress.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#186#1612#0" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/Cart.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/member/Member_Cart.py">
+    <entry file="file://$PROJECT_DIR$/../transporter/transporter.py" />
+    <entry file="file://$PROJECT_DIR$/../moter/new_function.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/cabint/Lib/site-packages/werkzeug/serving.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/cabint/Lib/site-packages/werkzeug/debug/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/common/models/option/option.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/member/Oauth_Member_Bind.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#24#59#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="16" column="74" lean-forward="true" selection-start-line="16" selection-start-column="74" selection-end-line="16" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/api/Food.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1507">
-          <caret line="141" column="41" selection-start-line="141" selection-start-column="41" selection-end-line="141" selection-end-column="41" />
+        <state relative-caret-position="100">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#2703#3949#0" />
+            <element signature="e#4003#4979#0" />
+            <element signature="e#5041#6108#0" />
+            <element signature="e#6160#7131#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/sent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/Order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
           <folding>
             <element signature="e#24#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/member/SentMemberComment.py">
+    <entry file="file://$USER_HOME$/Anaconda3/envs/cabint/Lib/site-packages/flask/app.py" />
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/Member.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="220">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/api/Huawei.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="163" column="38" lean-forward="true" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
           <folding>
-            <element signature="e#16#72#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/models/member/MemberComment.py">
+    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="90" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="90" />
+        <state relative-caret-position="160">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cert/client.key">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cert/client.crt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/libs/food/FoodService.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/local_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/production_setting.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/base_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/libs/res.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="208" column="54" selection-start-line="208" selection-start-column="54" selection-end-line="208" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
           <folding>
-            <element signature="e#16#72#0" expanded="true" />
+            <element signature="e#25#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/controllers/food/Food.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-827">
+          <caret line="357" column="37" lean-forward="true" selection-start-line="357" selection-start-column="37" selection-end-line="357" selection-end-column="37" />
+          <folding>
+            <element signature="e#24#76#0" expanded="true" />
+            <element signature="e#2236#2838#0" />
+            <element signature="e#6028#6843#0" />
+            <element signature="e#6891#7350#0" />
+            <element signature="e#7434#8943#0" />
+            <element signature="e#9019#9830#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/controllers/api/My.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <element signature="e#539#2665#0" />
-            <element signature="e#2717#5181#0" />
-            <element signature="e#4895#6383#0" />
-          </folding>
+        <state relative-caret-position="140">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
     </entry>

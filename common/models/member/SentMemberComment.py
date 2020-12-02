@@ -14,3 +14,4 @@ class SentMemberComment(db.Model):
     order_sn = db.Column(db.String(40, 'utf8_bin'), nullable=False, server_default=db.FetchedValue())
     score = db.Column(db.Integer, nullable=False, server_default=db.FetchedValue())
     created_time = db.Column(db.DateTime, nullable=False, server_default=db.FetchedValue())
+    sent_content = db.Column(db.String(200), nullable=False, server_default=db.FetchedValue())

@@ -19,7 +19,7 @@
 </div>
 <div class="row m-t  wrap_hall_set">
 	<div class="col-lg-12">
-		<h2 class="text-center">分类设置</h2>
+		<h2 class="text-center">餐厅设置</h2>
 		<div class="form-horizontal m-t m-b">
 			<div class="form-group">
 				<label class="col-lg-2 control-label">分类名称:</label>
@@ -28,14 +28,34 @@
 				</div>
 			</div>
 			<div class="hr-line-dashed"></div>
+			<div class="hr-line-dashed"></div>
+
+			<div class="form-group">
+                <label class="col-lg-2 control-label">封面图:</label>
+                <div class="col-lg-10">
+                    <form class="upload_pic_wrap" target="upload_file" enctype="multipart/form-data" method="POST" action="{{ buildUrl('/upload/pic') }}">
+                        <div class="upload_wrap pull-left">
+                            <i class="fa fa-upload fa-2x"></i>
+                            <input type="file" name="pic" accept="image/png, image/jpeg, image/jpg,image/gif">
+                        </div>
+                         {% if info and info.main_image %}
+                        <span class="pic-each">
+                            <img src="{{ buildImageUrl( info.main_image ) }}"/>
+                            <span class="fa fa-times-circle del del_image" data="{{ info.main_image }}"></span>
+                        </span>
+                        {% endif %}
+                    </form>
+                </div>
+            </div>
+			<div class="hr-line-dashed"></div>
+
 			<div class="form-group">
 				<label class="col-lg-2 control-label">权重:</label>
 				<div class="col-lg-10">
 					<input type="text" name="weight" class="form-control" placeholder="请输入分类名称~~" value="{% if info and info.weight>0%}{{info.weight}}{%else%}1{%endif%}">
 				</div>
 			</div>
-			<div class="hr-line-dashed"></div>
-			<div class="form-group">
+            <div class="hr-line-dashed"></div>
 				<div class="col-lg-4 col-lg-offset-2">
 					<input type = "hidden" name="id" value="{{info.id}}">
 					<button class="btn btn-w-m btn-outline btn-primary save">保存</button>
@@ -44,6 +64,7 @@
 		</div>
 	</div>
 </div>
+<iframe name="upload_file" class="hide"></iframe>
 {% endblock %}
 {% block js %}
 <script src="{{ buildStaticUrl('/js/food/hall_set.js') }}"></script>

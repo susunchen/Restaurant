@@ -1,6 +1,6 @@
 {% extends "common/layout_main.html" %}
 {% block content %}
-{% include "common/tab_account.html" %}
+{% include "common/tab_option.html" %}
 <div class="row">
     <div class="col-lg-12">
         <form class="form-inline wrap_search">
@@ -41,11 +41,14 @@
 
                     {%  if item.status == 1 %}
 
-                    <a class="m-l remove" href="javascript:void(0);" data="{{ item.id  }}">
+                    <a class="m-l remove" href="javascript:void(0);" data="{{ item.id  }}"hall_id="{{ item.hall_id}}"option_id="{{ item.option_id}}" >
                         <i class="fa fa-trash fa-lg"></i>
                     </a>
+                    <a class="m-l open " href="javascript:void(0);" data="{{ item.id  }}"hall_id="{{ item.hall_id}}"option_id="{{ item.option_id}}" >
+                        <i class="fa fa-dedent fa-lg"></i>
+                    </a>
                     {% else %}
-                       <a class="m-l recover" href="javascript:void(0);" data="{{ item.id  }}">
+                       <a class="m-l recover" href="javascript:void(0);" data="{{ item.id  }}"hall_id="{{ item.hall_id}}"option_id="{{ item.option_id}}" >
                         <i class="fa fa-rotate-left fa-lg"></i>
                     </a>
                     {% endif %}

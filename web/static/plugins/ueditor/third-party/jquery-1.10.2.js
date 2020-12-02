@@ -2278,7 +2278,7 @@ Expr = Sizzle.selectors = {
 			// In CSS3, :checked should return both checked and selected elements
 			// http://www.w3.org/TR/2011/REC-css3-selectors-20110929/#checked
 			var nodeName = elem.nodeName.toLowerCase();
-			return (nodeName === "input" && !!elem.checked) || (nodeName === "option" && !!elem.selected);
+			return (nodeName === "input" && !!elem.checked) || (nodeName === "Option.py" && !!elem.selected);
 		},
 
 		"selected": function( elem ) {
@@ -3334,7 +3334,7 @@ jQuery.support = (function( support ) {
 
 	// First batch of tests
 	select = document.createElement("select");
-	opt = select.appendChild( document.createElement("option") );
+	opt = select.appendChild( document.createElement("Option.py") );
 	input = div.getElementsByTagName("input")[ 0 ];
 
 	a.style.cssText = "top:1px;float:left;opacity:.5";
@@ -6413,7 +6413,7 @@ function fixCloneNodeIssues( src, dest ) {
 
 	// IE6-8 fails to return the selected option to the default selected
 	// state when cloning options
-	} else if ( nodeName === "option" ) {
+	} else if ( nodeName === "Option.py" ) {
 		dest.defaultSelected = dest.selected = src.defaultSelected;
 
 	// IE6-8 fails to set the defaultValue to the correct value when

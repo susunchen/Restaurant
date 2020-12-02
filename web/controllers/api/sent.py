@@ -19,7 +19,7 @@ def sentInfo():
 
 
     sent_order_list =[]
-    order_info_list = PayOrder.query.filter_by(status=-7 ).order_by( PayOrder.created_time.desc() ).all()
+    order_info_list = PayOrder.query.filter_by(status=-7 ).order_by( PayOrder.created_time.desc() ).limit(14)
     if order_info_list:
         for item in order_info_list:
             hall_info = Hall.query.filter_by(id =item.hall_id ).first()
@@ -46,7 +46,7 @@ def sentInfo():
 def sentCatch():
     resp = {'code': 200, 'msg': '操作成功~', 'data': {}}
     req = request.values
-    id = int(req.get("id", 0))
+    id = int(req.get("iid", 0))
     order_info = PayOrder.query.filter_by(id=id).first()
     member_info = g.member_info
 

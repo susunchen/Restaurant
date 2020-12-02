@@ -33,7 +33,7 @@ from web.controllers.Qrcode.Qrcode import route_qrcode
 from web.controllers.Production.production import route_production
 from web.controllers.chart import route_chart
 from web.controllers.cabint.cabint import route_cabint
-
+from web.controllers.option.Option import route_option
 
 
 app.register_blueprint( route_index,url_prefix = "/" )
@@ -50,3 +50,4 @@ app.register_blueprint( route_qrcode,url_prefix = "/qrcode" )
 app.register_blueprint( route_production,url_prefix = "/production" )
 app.register_blueprint( route_chart,url_prefix = "/chart" )
 app.register_blueprint( route_cabint,url_prefix = "/cabint" )
+app.register_blueprint( route_option,url_prefix = "/option" )

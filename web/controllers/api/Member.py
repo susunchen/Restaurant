@@ -9,6 +9,7 @@ from common.models.food.Wx_Share_History import WxShareHistory
 from common.libs.Help import getCurrentDate
 from common.libs.member.MemberService import MemberService
 
+
 @route_api.route("/member/login",methods = [ "GET","POST" ])
 def login():
     resp = { 'code':200 ,'msg':'操作成功~','data':{} }

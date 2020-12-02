@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -37,21 +37,29 @@
                             class="nav-label">美餐管理</span></a>
                 </li>
                 <li class="cabint">
-                    <a href="{{ buildUrl('/cabint/index') }}"><i class="fa fa-server fa-lg"></i> <span
-                            class="nav-label">柜子管理</span></a>
+                    <a href="{{ buildUrl('/option/index') }}"><i class="fa fa-server fa-lg"></i> <span
+                            class="nav-label">设备管理</span></a>
                 </li>
                 <li class="member">
                     <a href="{{ buildUrl('/member/index') }}"><i class="fa fa-group fa-lg"></i> <span
                             class="nav-label">会员列表</span></a>
                 </li>
-                <li class="finance">
+                <!--<li class="finance">
                     <a href="{{ buildUrl('/finance/index') }}"><i class="fa fa-rmb fa-lg"></i> <span
                             class="nav-label">财务管理</span></a>
+                </li>-->
+                <li class="stat1">
+                    <a href="https://datav.aliyun.com/share/6a281b25d1021c3302db501a97e70e0f"><i class="fa fa-rmb fa-lg"></i> <span
+                            class="nav-label">食堂数据</span></a>
                 </li>
-                <li class="stat">
+                <li class="stat2">
+                    <a href="https://datav.aliyun.com/share/ea12bb54ba99c298190ab208cddfb756"><i class="fa fa-rmb fa-lg"></i> <span
+                            class="nav-label">餐厅数据</span></a>
+                </li>
+                <!--<li class="stat3">
                     <a href="{{ buildUrl('/stat/index') }}"><i class="fa fa-bar-chart fa-lg"></i> <span
                             class="nav-label">统计管理</span></a>
-                </li>
+                </li>-->
             </ul>
 
         </div>
@@ -104,6 +112,11 @@
             </nav>
         </div>
         {% block content %}{% endblock %}
+    </div>
+        <div class="footer-copyright">
+        <img alt="image" class="img-circle1" src="{{ buildStaticUrl('/images/common/beian.png') }}"/>
+        <span>保留一切权利</span>
+        <a class="footer-link" href="http://www.beian.miit.gov.cn" target="_blank" rel="nofollow">粤ICP备19043746号-1</a>
     </div>
 </div>
 <div class="hidden hidden_layout_wrap">

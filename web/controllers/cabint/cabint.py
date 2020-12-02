@@ -5,6 +5,8 @@ from common.libs.UrlManager import UrlManager
 from common.models.cabint.cabint_status import CabintStatu
 from common.models.cabint.cabint_data import CabintData
 from common.models.pay.PayOrder import PayOrder
+from common.models.option.option import Option
+from common.libs.huawei.huawei_help import *
 import requests
 import json
 
@@ -40,20 +42,12 @@ def index():
     offset = (page - 1) * app.config['PAGE_SIZE']
     list = query.order_by(CabintStatu.id.desc()).offset(offset).limit(app.config['PAGE_SIZE']).all()
 
-
-
-
     resp_data['list'] = list
     resp_data['pages'] = pages
     resp_data['search_con'] = req
     resp_data['cabint_status_mapping'] = app.config['CABINT_STATUS_MAPPING']
     resp_data['status_mapping'] = app.config['STATUS_MAPPING']
-    resp_data['current'] = 'index'
-
-
-
-
-
+    resp_data['current'] = 'cabint'
 
     return ops_render("cabint/index.html", resp_data)
 
@@ -62,6 +56,58 @@ def ops():
     resp = {'code': 200, 'msg': '操作成功~~', 'data': {}}
     req = request.values
 
+    id = req['id'] if 'id' in req else 0
+    act = req['act'] if 'act' in req else ''
+    hall_id = req['hall_id'] if 'act' in req else ''
+    option_id = req['option_id'] if 'act' in req else ''
+
+
+    if not id:
+        resp['code'] = -1
+        resp['msg'] = "请选择要操作的柜子~~"
+        return jsonify(resp)
+
+    if act not in ['remove', 'recover','open']:
+        resp['code'] = -1
+        resp['msg'] = "操作有误，请重试~~"
+        return jsonify(resp)
+
+    cabint_info = CabintStatu.query.filter_by(id=id).first()
+    if not cabint_info:
+        resp['code'] = -1
+        resp['msg'] = "指定柜子不存在~~"
+        return jsonify(resp)
+
+    if act == "open":
+        option_info =Option.query.filter_by(hall_id =hall_id,option_id = option_id ).firset()
+        deviceId = option_info.deviceId
+        serviceId = "OpenDool"
+        method = "OPEN"
+        body = {
+            "cabint_id":id
+        }
+        token = hwawei_help.getAccessToken()
+        # hwawei_help.sendCommand(token = token,deviceId=deviceId,serviceId=serviceId,method=method,body=body)
+        # 用下面这个
+        back = hwawei_help.CMD(token=token, deviceId=deviceId, serviceId=serviceId, method=method, paras=body)
+
+
+
+    elif act == "remove":
+        cabint_info.status = 0
+    elif act == "recover":
+        cabint_info.status = 1
+
+        cabint_info.update_time = getCurrentDate()
+    db.session.add(cabint_info)
+    db.session.commit()
+    return jsonify(resp)
+
+
+@route_cabint.route( "/open",methods = [ "POST" ] )
+def open():
+    resp = {'code': 200, 'msg': '操作成功~~', 'data': {}}
+    req = request.values
     id = req['id'] if 'id' in req else 0
     act = req['act'] if 'act' in req else ''
     if not id:
@@ -79,16 +125,8 @@ def ops():
         resp['code'] = -1
         resp['msg'] = "指定柜子不存在~~"
         return jsonify(resp)
-
-    if act == "remove":
-        cabint_info.status = 0
-    elif act == "recover":
-        cabint_info.status = 1
-
-        cabint_info.update_time = getCurrentDate()
-    db.session.add(cabint_info)
-    db.session.commit()
     return jsonify(resp)
+
 
 @route_cabint.route( "/choose" ,methods = [ "POST" ])# 需要添加参数有效性验证
 def choose():
@@ -142,6 +180,8 @@ def choose():
 
 @route_cabint.route( "/confirm" ,methods = [ "POST" ])# 需要添加参数有效性验证，改变订单状态
 def confirm():
+
+
     resp = {'code': 200, 'msg': '操作成功~~', 'data': {}}
     req = request.values
     qrcode_id = int(req['qrcode_id']) if 'qrcode_id' in req and req['qrcode_id'] else 0

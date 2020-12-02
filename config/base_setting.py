@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-SERVER_PORT = 8999
+SERVER_PORT = 8889
 DEBUG = False
 SQLALCHEMY_ECHO = False
 AUTH_COOKIE_NAME = "mooc_food"
@@ -37,9 +37,18 @@ CABINT_STATUS_MAPPING = {
     "0":"使用中"
 }
 
+OPTION_TYPE_MAPPING = {
+    "1":"生产摄像头",
+    "2":"过程扫码器",
+    "3":"机械臂",
+    "4":"智能取餐柜",
+    "5":"二维码打印机",
+    "6":"传送带"
+
+}
 MINA_APP = {
-    'appid' :'wx701dd190df5db6b9',
-    'appkey' : 'd619bdeaf5f0377fa7b615cda660587e'
+    'appid' :'wxc1bb68825a7a903a',
+    'appkey' : 'eb32b5239177b2e9e88561c8b13db7cb'
 
 
 }
@@ -50,7 +59,9 @@ UPLOAD = {
     'prefix_url':'/static/upload/'
 }
 APP = {
-    'domain':'http://127.0.0.1:8999'
+    #'domain':'https://www.szuforti.top'
+    #"domain":"http://szu125.zicp.vip"
+    "domain":"127.0.0.1:8889"
 }
 PAY_STATUS_MAPPING = {
     "1":"已支付",
@@ -71,4 +82,21 @@ PAY_STATUS_DISPLAY_MAPPING = {
     "-3":"收取成功配送中",
     "-2":"已经送达,用户待确认",
     "4":"评价完成",
+
+}
+# 华为云账号：
+HUAWEI_IOT = {
+    "appId":"Y_W4ttL4BLbD5oJy6GALURgg3kka",
+    "secret":"KihKip0c4Yvj8OG6ekvkhfe3OJsa"
+}
+# 华为云的设备：
+SCAN = {
+    "deviceId":"55c1ff2c-0b01-49ef-9974-47db03a1f514"
+}
+MOTER= {
+
+    "deviceId":"985d6a4d-b4f9-4a23-b7aa-d80ef700ea7c"
+}
+CABINT= {
+    "deviceId":"d5d81dae-beae-4dad-8627-8e0a6799a4c8"
 }

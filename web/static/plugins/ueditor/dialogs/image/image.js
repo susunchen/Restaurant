@@ -689,7 +689,7 @@
                         /* 添加额外的GET参数 */
                         var params = utils.serializeParam(editor.queryCommandValue('serverparam')) || '',
                             url = utils.formatUrl(actionUrl + (actionUrl.indexOf('?') == -1 ? '?':'&') + 'encode=utf-8&' + params);
-                        uploader.option('server', url);
+                        uploader.Option('server', url);
                         setState('uploading', files);
                         break;
                     case 'stopUpload':

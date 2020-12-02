@@ -6,9 +6,11 @@ from common.models.food.food import Food
 from common.models.member.Member_Cart import MemberCart
 from common.models.member.MemberComment import MemberComment
 from common.models.member.Member import Member
+
 from common.models.food.hall import Hall
 from common.libs.UrlManager import UrlManager
 from common.libs.Help import getCurrentDate,getDictFilterField,selectFilterObj
+from common.libs.res import Recommend
 from application import app,db
 from sqlalchemy import  or_
 
@@ -24,12 +26,17 @@ def foodIndex():
     data_cat_list = []
     data_hall_list = []
     data_food_list = []
+    Recommend_food_list = []
     #取餐厅数据：
     tmp_data = {
         'id': id,
-        'name': hall_info.name
+        'name': hall_info.name,
+        "main_photo":UrlManager.buildImageUrl(hall_info.main_image)
     }
     data_hall_list.append(tmp_data)
+    food_id = Recommend(g.member_info.id, id)
+
+
 
     #取食物数据：
     if food_list:
@@ -42,13 +49,21 @@ def foodIndex():
                 'min_price':str( item.price ),
                 'pic_url': UrlManager.buildImageUrl(item.main_image)
             }
-            data_food_list.append(tmp_data)
+            if item.id in food_id:
+                Recommend_food_list.append(tmp_data)
 
+            data_food_list.append(tmp_data)
+    Recommend_cat_list = {
+        'id': "i" + str(1),
+        'classifyName': "推荐菜品"
+    }
+    Recommend_cat_list["goods"] = Recommend_food_list
+    data_cat_list.append(Recommend_cat_list)
     #取食物列表数据：
     if cat_list:
         for item in cat_list:
             tmp_data = {
-                'id': item.id,
+                'id': "i"+str(item.id+1),
                 'classifyName': item.name
             }
             tmp_data["goods"] = []
@@ -160,3 +175,34 @@ def foodComments():
     resp['data']['list'] = data_list
     resp['data']['count'] = query.count()
     return jsonify(resp)
+
+
+@route_api.route("/food/res")
+def foodRes():
+    resp = {'code': 200, 'msg': '操作成功~', 'data': {}}
+    req = request.values
+
+    url = SQLALCHEMY_DATABASE_URI.split("/")[2]
+    url_list = url.split("@")
+    host = url_list[1]    #数据库ip地址
+    li = url_list[0]
+    username = li.split(":")[0] #用户名
+    password = li.split(":")[1] #密码
+
+    member_id = int(req['member_id'])  # 用户的id
+    hall_id = int(req['hall_id'])  # 餐厅的id
+
+    food_data, member_food_id = read_sql(host, username, password, member_id)
+    res = get_res_data(food_data, member_food_id, do, hall_id)  # 推荐结果
+
+    if len(res) == 0:  # 新用户
+        no_res_data = food_data.sort_values('num', ascending=False).iloc[0:3]
+        no_res = copy.deepcopy(no_res_data[['food_id', 'food_name']])
+        no_res['food_cos'] = 0
+        res = copy.deepcopy(no_res) #推荐结果
+    res_id = list(res['food_id'])   #推荐id
+    #res_name = list(res['food_name']) #推荐名称
+    #res_cos = list(res['food_cos']) #推荐相似度
+
+    request['data']['res_id'] = res_id
+    return jsonify(res_id)

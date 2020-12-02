@@ -4,29 +4,86 @@
     <meta charset="UTF-8">
     <title>1</title>
     <style type="text/css">
-        th {text-align: center;font-size: 110px;color: blue;}
-        td {text-align: center;font-size: 110px;color: blue;}
+        th {text-align: center;font-size: 70px;color: blue;}
+        td {text-align: center;font-size: 70px;color: blue;}
     </style>
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-<table class="table table-bordered m-t" align="center">
+
+<script>
+    $(function () {
+        getData();
+        setInterval(function () {
+            getData();
+        }, 3000);   //3秒请求一次
+    });
+    function getData() {
+        $.getJSON("/production/reload", function(res) {
+                var data = res;
+                var name_str = "";
+                var type_str = "";
+                var note_str = "";
+
+                for (i=0; i<= data.length-2;i++) {
+                    name_str +="<tr id=\"food_name\">"+ "<td style=“word-break:break-all;”>"+data[i]['name'] + "</td>" +"</tr>";
+                }    //食物名称
+                if (data.length){
+                type_str += data[data.length-1]['type']; //就餐方式
+                note_str += data[data.length-1]['note']; //备注
+                }
+                else{
+                   name_str ="<tr id=\"food_name\">"+  "<td style=“word-break:break-all;”>"+"暂无数据~"+"</td>"+"</tr>";
+                    type_str = "暂无数据~";
+                    note_str = "无备注";
+                }
+                if (note_str=="null"){
+                    note_str = "无备注";
+                }
+                console.log(name_str)
+                $("#nt").html(name_str);
+                $("#food_type").text(type_str);
+                $("#food_note").text(note_str);
+        });
+    }
+</script>
+
+<table class="table table-bordered m-t" align="left" id="food_tb_name" style="table-layout:fixed;">
             <thead>
             <tr>
                 <th>美食名</th>
             </tr>
             </thead>
-
-            <tbody>
-             {% if list_1 %}
-                {% for item in list_1 %}
-            <tr>
-                <td>{{ item.name }}</td>
+            <tbody  id="nt">
+            <tr id="food_name">
+                <td id="food_every_name">暂无数据~~</td>
             </tr>
-             {% endfor %}
-            {% else %}
-                <tr><td colspan="1">暂无数据~~</td></tr>
-            {% endif %}
             </tbody>
         </table>
+<table class="table table-bordered m-t" align="center">
+            <thead>
+            <tr>
+                <th>就餐方式</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td id="food_type">暂无数据~~</td>  <!--其中xxx为订餐方式的订单表头名字-->
+            </tr>
+            </tbody>
+
+                <thead>
+            <tr>
+                <th>备注</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td id="food_note">无备注</td>  <!--其中xxx为备注的订单表头名字-->
+            </tr>
+            </tbody>
+</table>
 </body>
 </html>

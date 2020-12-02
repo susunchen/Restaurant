@@ -33,9 +33,11 @@ class PayService():
             return resp
 
         yun_price = params['yun_price'] if params and 'yun_price' in params else 0
+        send_typeid = params['send_typeid'] if params and 'send_typeid' in params else 0
         note = params['note'] if params and 'note' in params else ''
         express_address_id = params['express_address_id'] if params and 'express_address_id' in params else 0
         express_info = params['express_info'] if params and 'express_info' in params else {}
+
         yun_price = decimal.Decimal( yun_price )
         total_price = pay_price + yun_price
         try:
@@ -51,8 +53,9 @@ class PayService():
             model_pay_order.order_sn = self.geneOrderSn()
             model_pay_order.member_id = member_id
             model_pay_order.total_price = total_price
+            model_pay_order.send_typeid = int(send_typeid)
             model_pay_order.hall_id = tmp_item.hall_id
-            model_pay_order.qrcode_id =model_pay_order.order_sn
+
             model_pay_order.yun_price = yun_price
             model_pay_order.pay_price = pay_price
             model_pay_order.note = note
@@ -61,6 +64,11 @@ class PayService():
             model_pay_order.express_address_id = express_address_id
             model_pay_order.express_info = json.dumps(  express_info )
             model_pay_order.updated_time = model_pay_order.created_time = getCurrentDate()
+            if  int(send_typeid)==1:
+                model_pay_order.qrcode_id = ''
+            else:
+                model_pay_order.qrcode_id = model_pay_order.order_sn
+
             db.session.add( model_pay_order )
             #db.session.flush()
             for item in items:
